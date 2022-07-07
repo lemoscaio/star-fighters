@@ -11,7 +11,7 @@ import { battleSchema } from "./schemas/battleSchema.js"
 import { validateSchema } from "./middlewares/validateSchema.js"
 
 import { errorHandler } from "./middlewares/errorHandler.js"
-import { checkDifferentUser } from "./middlewares/checkdifferentUser.js"
+import { checkDifferentUser } from "./middlewares/checkDifferentUser.js"
 
 dotenv.config()
 
